@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "घर",
+    "roman": "Ghar",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "School", "correct": false },
+      { "id": "B", "text": "House / Home", "correct": true },
+      { "id": "C", "text": "Village", "correct": false },
+      { "id": "D", "text": "River", "correct": false }
+    ],
+    "tip": "In Awadhi, 'Ghar' means home — the same word is used across many North Indian languages."
+  },
+  {
+    "id": 2,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "भात",
+    "roman": "Bhaat",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "Bread", "correct": false },
+      { "id": "B", "text": "Lentils", "correct": false },
+      { "id": "C", "text": "Cooked Rice", "correct": true },
+      { "id": "D", "text": "Vegetables", "correct": false }
+    ],
+    "tip": "'Bhaat' is cooked rice — a staple of every Awadhi household."
+  },
+  {
+    "id": 3,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "बहिन",
+    "roman": "Bahin",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "Mother", "correct": false },
+      { "id": "B", "text": "Daughter", "correct": false },
+      { "id": "C", "text": "Friend", "correct": false },
+      { "id": "D", "text": "Sister", "correct": true }
+    ],
+    "tip": "'Bahin' means sister in Awadhi — similar to 'Behen' in Hindi."
+  },
+  {
+    "id": 4,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "पंडित",
+    "roman": "Pandit",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "Farmer", "correct": false },
+      { "id": "B", "text": "Priest / Scholar", "correct": true },
+      { "id": "C", "text": "Teacher", "correct": false },
+      { "id": "D", "text": "Doctor", "correct": false }
+    ],
+    "tip": "A 'Pandit' performs religious ceremonies like namkaran and biaah in Awadhi culture."
+  },
+  {
+    "id": 5,
+    "type": "Sentence / Translate to English",
+    "awadhi": "वे रोज स्कूल जा थें।",
+    "roman": "Ve roz skool ja then.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "They will go to school tomorrow.", "correct": false },
+      { "id": "B", "text": "They used to go to school daily.", "correct": true },
+      { "id": "C", "text": "They are going to the school now.", "correct": false },
+      { "id": "D", "text": "He went to school yesterday.", "correct": false }
+    ],
+    "tip": "The suffix '-थें' (then) indicates habitual past tense in Awadhi."
+  },
+  {
+    "id": 6,
+    "type": "Sentence / Translate to English",
+    "awadhi": "हमरे पास पैसा नाय ना।",
+    "roman": "Hamare paas paisa naay na.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "Do we have money?", "correct": false },
+      { "id": "B", "text": "They have a lot of money.", "correct": false },
+      { "id": "C", "text": "We don't have money.", "correct": true },
+      { "id": "D", "text": "I need some money.", "correct": false }
+    ],
+    "tip": "'नाय ना' is a double negation used in Awadhi for strong emphasis."
+  },
+  {
+    "id": 7,
+    "type": "Sentence / Translate to English",
+    "awadhi": "गाँव कय ई सबसे पुरान पेड आय।",
+    "roman": "Gaav kay ee sabse puraan ped aay.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "The village has no trees.", "correct": false },
+      { "id": "B", "text": "Plant a new tree in the village.", "correct": false },
+      { "id": "C", "text": "This is the tallest tree in the village.", "correct": false },
+      { "id": "D", "text": "This is the oldest tree in the village.", "correct": true }
+    ],
+    "tip": "'पुरान' means old/ancient — 'सबसे पुरान' means the oldest."
+  },
+  {
+    "id": 8,
+    "type": "Sentence / Translate to English",
+    "awadhi": "वे कपडा धोवत रही।",
+    "roman": "Ve kapda dhovat rahi.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "She was washing clothes.", "correct": true },
+      { "id": "B", "text": "She bought new clothes.", "correct": false },
+      { "id": "C", "text": "They are drying clothes.", "correct": false },
+      { "id": "D", "text": "She stitched the cloth.", "correct": false }
+    ],
+    "tip": "'धोवत' is the continuous form of 'dhona' (to wash) in Awadhi."
+  },
+  {
+    "id": 9,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "बिआह",
+    "roman": "Biaah",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "Festival", "correct": false },
+      { "id": "B", "text": "Birth Ceremony", "correct": false },
+      { "id": "C", "text": "Wedding / Marriage", "correct": true },
+      { "id": "D", "text": "Funeral", "correct": false }
+    ],
+    "tip": "'Biaah' is the Awadhi word for wedding — equivalent to 'Vivah' in Sanskrit."
+  },
+  {
+    "id": 10,
+    "type": "Sentence / Translate to English",
+    "awadhi": "हम अउर हमाय भाय साथ मा खेलब।",
+    "roman": "Hum aur humay bhaay saath ma khelab.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "My brother plays alone.", "correct": false },
+      { "id": "B", "text": "I will play with my brother.", "correct": true },
+      { "id": "C", "text": "We watched our brother play.", "correct": false },
+      { "id": "D", "text": "I and my friend will fight.", "correct": false }
+    ],
+    "tip": "'अउर' means 'and' in Awadhi — 'साथ मा' means 'together'."
+  },
+  {
+    "id": 11,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "नामकरन",
+    "roman": "Naamkaran",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "Death Ritual", "correct": false },
+      { "id": "B", "text": "Naming Ceremony", "correct": true },
+      { "id": "C", "text": "Wedding Ritual", "correct": false },
+      { "id": "D", "text": "Harvest Festival", "correct": false }
+    ],
+    "tip": "'Naamkaran' combines 'naam' (name) + 'karan' (action) — literally the act of naming a child."
+  },
+  {
+    "id": 12,
+    "type": "Sentence / Translate to English",
+    "awadhi": "राधा अपने खातिर एक साडी खरीदी।",
+    "roman": "Radha apne khaatir ek saadi kharidi.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "Radha gifted a saree to her mother.", "correct": false },
+      { "id": "B", "text": "Radha bought a saree for herself.", "correct": true },
+      { "id": "C", "text": "Radha lost her saree.", "correct": false },
+      { "id": "D", "text": "Radha stitched a saree.", "correct": false }
+    ],
+    "tip": "'खातिर' means 'for' in Awadhi — 'अपने खातिर' means 'for oneself'."
+  },
+  {
+    "id": 13,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "महतारी",
+    "roman": "Mahtari",
+    "prompt": "What does this Awadhi word mean?",
+    "options": [
+      { "id": "A", "text": "Father", "correct": false },
+      { "id": "B", "text": "Grandmother", "correct": false },
+      { "id": "C", "text": "Mother", "correct": true },
+      { "id": "D", "text": "Elder Sister", "correct": false }
+    ],
+    "tip": "'Mahtari' is the authentic Awadhi word for mother — more common than the Hindi 'Maa'."
+  },
+  {
+    "id": 14,
+    "type": "Sentence / Translate to English",
+    "awadhi": "टैंक मा पानी नाही बाटय।",
+    "roman": "Tank ma paani naahi baatay.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "The tank is overflowing.", "correct": false },
+      { "id": "B", "text": "Fill water in the tank.", "correct": false },
+      { "id": "C", "text": "There is no water in the tank.", "correct": true },
+      { "id": "D", "text": "The water tank is very big.", "correct": false }
+    ],
+    "tip": "'नाही बाटय' is a common Awadhi expression meaning 'there isn't / is not'."
+  },
+  {
+    "id": 15,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "खीर",
+    "roman": "Kheer",
+    "prompt": "What is 'Kheer' in English?",
+    "options": [
+      { "id": "A", "text": "Fried bread", "correct": false },
+      { "id": "B", "text": "Rice Pudding", "correct": true },
+      { "id": "C", "text": "Spiced lentil soup", "correct": false },
+      { "id": "D", "text": "Sweet yogurt", "correct": false }
+    ],
+    "tip": "Kheer is prepared for every Awadhi celebration — from namkaran to biaah."
+  },
+  {
+    "id": 16,
+    "type": "Sentence / Translate to English",
+    "awadhi": "जहाँ-तहाँ किताब बिखरी पडी बाटय।",
+    "roman": "Jahaan-tahaan kitaab bikhari padi baatay.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "Please arrange the books neatly.", "correct": false },
+      { "id": "B", "text": "Books are locked in the cupboard.", "correct": false },
+      { "id": "C", "text": "There are no books in the room.", "correct": false },
+      { "id": "D", "text": "Books are scattered here and there.", "correct": true }
+    ],
+    "tip": "'जहाँ-तहाँ' is an Awadhi idiom meaning 'here and there / everywhere'."
+  },
+  {
+    "id": 17,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "आशीर्वाद",
+    "roman": "Aashirvaad",
+    "prompt": "What does 'Aashirvaad' mean?",
+    "options": [
+      { "id": "A", "text": "Blessing", "correct": true },
+      { "id": "B", "text": "Punishment", "correct": false },
+      { "id": "C", "text": "Invitation", "correct": false },
+      { "id": "D", "text": "Greeting", "correct": false }
+    ],
+    "tip": "Elders give 'Aashirvaad' to younger ones at every ceremony — a core Awadhi tradition."
+  },
+  {
+    "id": 18,
+    "type": "Sentence / Translate to English",
+    "awadhi": "वे हर दिन फ़ुटबाल खेला थें।",
+    "roman": "Ve har din football khela then.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "They want to learn football.", "correct": false },
+      { "id": "B", "text": "They used to play football every day.", "correct": true },
+      { "id": "C", "text": "They played football yesterday.", "correct": false },
+      { "id": "D", "text": "They won the football match.", "correct": false }
+    ],
+    "tip": "'हर दिन' means 'every day' — 'खेला थें' is habitual past tense for 'used to play'."
+  },
+  {
+    "id": 19,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "बाँस",
+    "roman": "Baans",
+    "prompt": "What does 'Baans' mean?",
+    "options": [
+      { "id": "A", "text": "Rope", "correct": false },
+      { "id": "B", "text": "Tree", "correct": false },
+      { "id": "C", "text": "River", "correct": false },
+      { "id": "D", "text": "Bamboo", "correct": true }
+    ],
+    "tip": "Bamboo (Baans) is widely used in Awadhi villages for making ropes, baskets, and furniture."
+  },
+  {
+    "id": 20,
+    "type": "Sentence / Translate to English",
+    "awadhi": "हम चाही थे की तू एक अच्छा इन्सान बना।",
+    "roman": "Hum chaahi the ki tu ek achchha insaan bana.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "You are a good person.", "correct": false },
+      { "id": "B", "text": "I wanted you to become a good person.", "correct": true },
+      { "id": "C", "text": "He became a good human being.", "correct": false },
+      { "id": "D", "text": "Be a good person.", "correct": false }
+    ],
+    "tip": "'चाही थे' expresses a past wish — 'I wanted' — a subjunctive-like form in Awadhi."
+  },
+  {
+    "id": 21,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "तिलक",
+    "roman": "Tilak",
+    "prompt": "In the context of Awadhi culture, 'Tilak' refers to:",
+    "options": [
+      { "id": "A", "text": "A sacred dot / Pre-wedding ceremony", "correct": true },
+      { "id": "B", "text": "A type of sweet dish", "correct": false },
+      { "id": "C", "text": "A musical instrument", "correct": false },
+      { "id": "D", "text": "A farming tool", "correct": false }
+    ],
+    "tip": "In Awadhi weddings, the 'Tilak' ceremony marks when the bride's family formally accepts the groom — the bride's father applies tilak on the groom's forehead."
+  },
+  {
+    "id": 22,
+    "type": "Sentence / Translate to English",
+    "awadhi": "हम जाबय जब अम्मा आय जइहैं।",
+    "roman": "Hum jaabay jab amma aay jaihain.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "Mother and I went together.", "correct": false },
+      { "id": "B", "text": "I will go when mother comes.", "correct": true },
+      { "id": "C", "text": "Mother went before I could.", "correct": false },
+      { "id": "D", "text": "When will mother arrive?", "correct": false }
+    ],
+    "tip": "'जाबय' is the Awadhi future tense — 'I will go'. 'जइहैं' means 'will come'."
+  },
+  {
+    "id": 23,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "रसम",
+    "roman": "Rasm",
+    "prompt": "What does 'Rasm' mean in Awadhi?",
+    "options": [
+      { "id": "A", "text": "Story / Narrative", "correct": false },
+      { "id": "B", "text": "Song / Melody", "correct": false },
+      { "id": "C", "text": "Ritual / Custom", "correct": true },
+      { "id": "D", "text": "Prayer / Worship", "correct": false }
+    ],
+    "tip": "Awadhi culture is rich in 'rasm' — customs passed down through generations at every ceremony."
+  },
+  {
+    "id": 24,
+    "type": "Sentence / Translate to English",
+    "awadhi": "खाये के बाद सोया।",
+    "roman": "Khaaye ke baad soya.",
+    "prompt": "What does this sentence mean?",
+    "options": [
+      { "id": "A", "text": "He slept before eating.", "correct": false },
+      { "id": "B", "text": "He ate and then ran.", "correct": false },
+      { "id": "C", "text": "He slept after eating.", "correct": true },
+      { "id": "D", "text": "She cooked and ate.", "correct": false }
+    ],
+    "tip": "'के बाद' means 'after' in Awadhi — a postposition used widely in Awadhi sentences."
+  },
+  {
+    "id": 25,
+    "type": "Vocabulary / Translate the Word",
+    "awadhi": "कलेवा",
+    "roman": "Kalewa",
+    "prompt": "What does 'Kalewa' mean?",
+    "options": [
+      { "id": "A", "text": "Evening Meal", "correct": false },
+      { "id": "B", "text": "Morning Meal / Breakfast", "correct": true },
+      { "id": "C", "text": "Festive Feast", "correct": false },
+      { "id": "D", "text": "Midnight Snack", "correct": false }
+    ],
+    "tip": "'Kalewa' is a uniquely Awadhi word for the morning meal — often the first thing a farmer eats before working the fields."
+  }
+]

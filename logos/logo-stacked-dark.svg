@@ -1,0 +1,16 @@
+<svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="200" fill="#1A1A1A"/>
+  <!-- Arch Mark Centered -->
+  <g transform="translate(72, 12)">
+    <line x1="-8" y1="72" x2="84" y2="72" stroke="#C9A96E" stroke-width="1.8"/>
+    <path d="M 4 72 L 4 38 A 34 34 0 0 1 72 38 L 72 72" stroke="#C9A96E" stroke-width="2" fill="none" stroke-linecap="square"/>
+    <path d="M 16 72 L 16 45 A 22 22 0 0 1 60 45 L 60 72" stroke="#C9A96E" stroke-width="1.2" fill="none" stroke-linecap="square"/>
+    <polygon points="38,18 42.5,24 38,30 33.5,24" stroke="#C9A96E" stroke-width="1" fill="#C9A96E"/>
+  </g>
+  <!-- Divider -->
+  <line x1="30" y1="100" x2="190" y2="100" stroke="rgba(201,169,110,0.2)" stroke-width="1"/>
+  <!-- Wordmark -->
+  <text x="110" y="126" font-family="Georgia, serif" font-size="17" font-weight="bold" fill="#F9F7F4" letter-spacing="3" text-anchor="middle">SANSKAR GUPTA</text>
+  <text x="110" y="146" font-family="Arial, sans-serif" font-size="8.5" fill="#F9F7F4" letter-spacing="7" opacity="0.55" text-anchor="middle">ARCHITECTS</text>
+  <text x="110" y="163" font-family="Arial, sans-serif" font-size="7" fill="#C9A96E" letter-spacing="4" text-anchor="middle">EST. 1996  ·  PAN INDIA</text>
+</svg>

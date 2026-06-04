@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "title": "Janam aur Naamkaran",
+    "awadhi": "जनम अउर नामकरन",
+    "level": "Beginner",
+    "time": "10 mins",
+    "img": "👶",
+    "category": "Lifecycle",
+    "summary": "The birth and naming ceremony is one of the most joyous occasions in Awadhi culture.",
+    "paragraphs": [
+      {
+        "awadhi": "जादातर जनम कय रसम अउर नामकरन कय रसम कौने कौने समय पय होत है।",
+        "english": "The birth and naming ceremonies take place at specific auspicious times."
+      },
+      {
+        "awadhi": "जनम अउर नामकरन कय रसन पंडित द्वारा शुभ दिन अउर तिथि देख के निश्चित कीन जात है ।",
+        "english": "The rituals are fixed by the priest after checking an auspicious day and date."
+      },
+      {
+        "awadhi": "नामकरन के रसम मा मामा,नाना-नानी ,बुआ-फ़ुफ़ा,चाची मौसी ,दादी ,नानी सब लॊग नामकरन के रसम मा जा थीं आवा थी ।",
+        "english": "For the naming ceremony, the maternal uncle, grandparents, aunts, and grandmother all came."
+      },
+      {
+        "awadhi": "जनम अउर नामकरन के रसम मा फ़ूल-फ़ल ,केला ,पूडी,सब्जी सब लागत है ।",
+        "english": "Flowers, fruits, bananas, puri, and vegetables are all part of the celebration."
+      },
+      {
+        "awadhi": "ज़नम अउर नामकरन कय विधि निकासन है ।",
+        "english": "The ceremony of birth and naming is called 'Nikasan'."
+      },
+      {
+        "awadhi": "जनम अउर नामकरन के रसम का निकासन कहा थीं वोहमा भोज हुअत है भोज मा पूडी -सब्जी,हलुआ ,दही खीर आदि भोज लगता है ।",
+        "english": "This ceremony is called Nikasan — a feast is held with puri-sabzi, halwa, yogurt, and kheer."
+      },
+      {
+        "awadhi": "जनम अउर नामकरन के समय व्यवस्था वोहकय महतारी-बाप ,घर वालेन करा थीं ।",
+        "english": "All arrangements are made by the child's parents and family."
+      }
+    ],
+    "vocabulary": [
+      { "awadhi": "जनम", "roman": "Janam", "english": "Birth" },
+      { "awadhi": "नामकरन", "roman": "Naamkaran", "english": "Naming Ceremony" },
+      { "awadhi": "पंडित", "roman": "Pandit", "english": "Priest" },
+      { "awadhi": "निकासन", "roman": "Nikasan", "english": "Coming-out Ceremony" },
+      { "awadhi": "भोज", "roman": "Bhoj", "english": "Feast" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Biaah ki Rasm",
+    "awadhi": "बिआह कय रसम",
+    "level": "Intermediate",
+    "time": "15 mins",
+    "img": "💍",
+    "category": "Lifecycle",
+    "summary": "The Awadhi wedding is a grand affair full of rituals, family gatherings, and traditional food.",
+    "paragraphs": [
+      {
+        "awadhi": "हमरे समाज मा शादी से सम्बन्धित रसम लगन,तिलक ,विवाह होत है ।",
+        "english": "In our society, wedding rituals include the engagement (Lagan), Tilak ceremony, and the marriage."
+      },
+      {
+        "awadhi": "समान्यत: लडकी के घर पय बिआह कय रसम लडका अउर लडकी के बालिग होय पय होत है।",
+        "english": "Generally, the wedding ceremony happens at the bride's home when the boy and girl come of age."
+      },
+      {
+        "awadhi": "बिआह कय रसम दिन के समय पंडित द्वारा वर अउर वधु कय जन्म पत्रिका देख के कीन जात है।",
+        "english": "The wedding ritual is conducted during the day by the priest after checking the horoscopes of the bride and groom."
+      },
+      {
+        "awadhi": "बिआह के रसम मुख्यत: सिन्दूर दान ,सात फ़ेरा आदि हुअत है ।",
+        "english": "The main wedding rituals are the Sindoor ceremony and the seven sacred rounds around the fire."
+      },
+      {
+        "awadhi": "बिआह के रसम मा घर के रिश्तेदार गाँव वाले बुआ ,काका ,फ़ुफ़ा,मामा,मौसी आदि लोग न्योता जा थीं ।",
+        "english": "Family members, villagers, aunts, uncles — all were invited to the wedding ceremony."
+      },
+      {
+        "awadhi": "बिआह के पहिलेव भोज होत है बिआह के बादव भोज होय लाग अहय । भोज मा पुडी-सब्जी खीर मिठाई ,लडडू आदि खाना बनत है ।",
+        "english": "There is a feast both before and after the wedding — with puri-sabzi, kheer, sweets, and laddoos."
+      },
+      {
+        "awadhi": "बिआह के रसम कय व्यवस्था अउर खर्चा लडकी के माँ-बाप उठावा थीं।",
+        "english": "The bride's parents bear all the expenses and arrangements for the wedding."
+      }
+    ],
+    "vocabulary": [
+      { "awadhi": "बिआह", "roman": "Biaah", "english": "Wedding" },
+      { "awadhi": "तिलक", "roman": "Tilak", "english": "Pre-wedding ceremony" },
+      { "awadhi": "सिन्दूर", "roman": "Sindoor", "english": "Vermilion" },
+      { "awadhi": "सात फ़ेरा", "roman": "Saat Fera", "english": "Seven Sacred Rounds" },
+      { "awadhi": "भोज", "roman": "Bhoj", "english": "Feast" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mrityu ki Rasm",
+    "awadhi": "म्रित्यु कय रसम",
+    "level": "Intermediate",
+    "time": "12 mins",
+    "img": "🕯️",
+    "category": "Lifecycle",
+    "summary": "Awadhi mourning rituals reflect a deep respect for the departed and community solidarity.",
+    "paragraphs": [
+      {
+        "awadhi": "हमरे समाज मा मित्यु से सम्बन्धित रसम तेरहवीं अउर वरषी हुआ थै।",
+        "english": "In our society, death-related rituals are the 13th-day ceremony (Terhaveen) and the annual memorial (Barsi)."
+      },
+      {
+        "awadhi": "समान्यत: म्रित्यु कय रसम म्रित्यु वाले आदमी के घरे पय हुआ थै।",
+        "english": "Generally, the death rituals take place at the home of the deceased person."
+      },
+      {
+        "awadhi": "ऊ मर गवा।",
+        "english": "He passed away."
+      },
+      {
+        "awadhi": "म्रित्यु के रसम मा रिश्तेदार -नातेदार अउर गाँव घर न्योता जा थै ।",
+        "english": "In the death rituals, relatives and villagers are all invited."
+      },
+      {
+        "awadhi": "मिर्त्यु कय रसम कय बिधि गउदान,तेरहवीं अउर वरषी अहय ।",
+        "english": "The ritual procedures for death include Gaudan, the 13th-day ceremony, and the annual memorial."
+      }
+    ],
+    "vocabulary": [
+      { "awadhi": "म्रित्यु", "roman": "Mrityu", "english": "Death" },
+      { "awadhi": "तेरहवीं", "roman": "Terhaveen", "english": "13th Day Ritual" },
+      { "awadhi": "वरषी", "roman": "Varshi", "english": "Annual Memorial" },
+      { "awadhi": "परिवार", "roman": "Parivaar", "english": "Family" },
+      { "awadhi": "पडोस", "roman": "Padosi", "english": "Neighbourhood" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gaav ki Zindagi",
+    "awadhi": "गाँव कय जिंदगी",
+    "level": "Beginner",
+    "time": "8 mins",
+    "img": "🌾",
+    "category": "Daily Life",
+    "summary": "A glimpse into the daily rhythms of an Awadhi village through real spoken sentences.",
+    "paragraphs": [
+      {
+        "awadhi": "वे रोज स्कूल जा थें।",
+        "english": "They used to go to school every day."
+      },
+      {
+        "awadhi": "हमरे घरे मा ढेर पेड अहय।",
+        "english": "There are many trees at our home."
+      },
+      {
+        "awadhi": "गाँव कय ई सबसे पुरान पेड आय।",
+        "english": "This is the oldest tree in the village."
+      },
+      {
+        "awadhi": "टैंक मा पानी नाही बाटय।",
+        "english": "There is no water in the tank."
+      },
+      {
+        "awadhi": "खराब मौसम की वजह से हम सब गाँव नही जाय पाइन।",
+        "english": "Due to bad weather, we all could not go to the village."
+      },
+      {
+        "awadhi": "वे हर दिन फ़ुटबाल खेला थें।",
+        "english": "They used to play football every day."
+      },
+      {
+        "awadhi": "वे कपडा धोवत रही।",
+        "english": "She was washing clothes."
+      },
+      {
+        "awadhi": "खाये के बाद सोया।",
+        "english": "He slept after eating."
+      }
+    ],
+    "vocabulary": [
+      { "awadhi": "गाँव", "roman": "Gaav", "english": "Village" },
+      { "awadhi": "पेड", "roman": "Ped", "english": "Tree" },
+      { "awadhi": "मौसम", "roman": "Mausam", "english": "Weather" },
+      { "awadhi": "पानी", "roman": "Paani", "english": "Water" },
+      { "awadhi": "रोज", "roman": "Roz", "english": "Every Day" }
+    ]
+  }
+]

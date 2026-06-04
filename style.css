@@ -1,0 +1,97 @@
+:root {
+    --saffron: #FF6B00;
+    --marigold: #F4A623;
+    --ivory: #FDF6EC;
+    --forest-green: #2D6A4F;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--saffron);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 450px;
+    height: 100vh;
+    background-color: var(--saffron);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+}
+
+/* Authentic Chikankari Pattern Overlay */
+.pattern-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.15;
+    background-image: radial-gradient(circle at center, #fff 1.5px, transparent 1.5px),
+                      repeating-conic-gradient(#fff 0 10deg, transparent 0 20deg);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+#screen-container {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+/* Global Onboarding Card with Mughal Arch */
+.onboarding-card {
+    height: 90vh;
+    margin: 5vh 20px;
+    background: var(--ivory);
+    border: 4px solid var(--forest-green);
+    border-radius: 200px 200px 30px 30px; /* The Mughal Arch Shape */
+    padding: 60px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color: var(--forest-green);
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: var(--forest-green);
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+.start-btn {
+    background: var(--forest-green);
+    color: var(--ivory);
+    border: none;
+    padding: 18px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.start-btn:active { transform: scale(0.95); }
+
+/* Animations */
+.fade-in { animation: fadeIn 0.5s ease-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
