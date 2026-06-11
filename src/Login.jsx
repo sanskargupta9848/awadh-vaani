@@ -131,18 +131,12 @@ export default function Login({ onLogin }) {
             </button>
           </div>
 
-          {/* Demo hint */}
+          {/* Study participants hint */}
           {mode === 'signin' && (
-            <div className="bg-ivory border border-marigold/20 rounded-2xl p-4 text-center">
-              <p className="text-[10px] uppercase font-bold text-slate-400 mb-2">Demo Account</p>
-              <p className="text-xs text-slate-500">Username: <span className="font-bold text-forest">demo</span> &nbsp;·&nbsp; Password: <span className="font-bold text-forest">demo</span></p>
-              <button
-                type="button"
-                onClick={() => { setUsername('demo'); setPassword('demo'); setError(''); }}
-                className="mt-2 text-[10px] text-saffron font-bold hover:underline"
-              >
-                Autofill demo credentials
-              </button>
+            <div className="bg-ivory border border-marigold/20 rounded-2xl p-3 text-center">
+              <p className="text-[11px] text-slate-500 italic">
+                Study participants: please use the credentials provided to you by the researcher.
+              </p>
             </div>
           )}
         </div>

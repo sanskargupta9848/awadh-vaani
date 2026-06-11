@@ -23,7 +23,10 @@ const BOTTOM_TABS = [
   { id: 'More', icon: '☰', label: 'More' },
 ];
 
-const MORE_ITEMS = [
+// Researcher accounts that see the full set including Community
+const ADMIN_USERS = ['sanskar', 'researcher', 'admin'];
+
+const MORE_ITEMS_ALL = [
   { id: 'Repository', icon: '🏛️', label: 'Shabd Bhandar' },
   { id: 'Stories', icon: '🐘', label: 'Kahaaniyaan' },
   { id: 'Community', icon: '🤝', label: 'Samaaj' },
@@ -146,7 +149,12 @@ export default function AppMobile() {
       </div>
 
       {/* More sheet */}
-      {showMore && (
+      {showMore && (() => {
+        const isAdmin = ADMIN_USERS.includes(currentUser?.username?.toLowerCase());
+        const MORE_ITEMS = isAdmin
+          ? MORE_ITEMS_ALL
+          : MORE_ITEMS_ALL.filter(item => item.id !== 'Community');
+        return (
         <div className="fixed inset-0 z-50 flex flex-col justify-end">
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setShowMore(false)} />
           <div className="relative bg-white rounded-t-3xl p-6 space-y-2 pb-28">
@@ -167,7 +175,8 @@ export default function AppMobile() {
             </button>
           </div>
         </div>
-      )}
+        );
+      })()}
 
       {/* Bottom nav */}
       <nav className="fixed bottom-0 left-1/2 -translate-x-1/2 bg-white border-t border-marigold/20 flex z-40 shadow-lg"

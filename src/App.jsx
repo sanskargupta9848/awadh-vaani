@@ -25,6 +25,7 @@ function App() {
   const [currentUser, setCurrentUser] = useState(null); // { username, name }
   const [activeScreen, setActiveScreen] = useState('Home');
   const [showQuitModal, setShowQuitModal] = useState(false);
+  const [showWelcome, setShowWelcome] = useState(false);
   const [stats, setStats] = useState(DEFAULT_STATS);
 
   // Restore session on mount
@@ -55,6 +56,13 @@ function App() {
     setCurrentUser({ username, name });
     setStats(userStats ?? DEFAULT_STATS);
     setActiveScreen('Home');
+    // Show welcome modal on first login for this user
+    try {
+      const seenKey = `awadhvaani_welcome_${username}`;
+      if (!localStorage.getItem(seenKey)) {
+        setShowWelcome(true);
+      }
+    } catch {}
   }, []);
 
   const handleLogout = useCallback(() => {
@@ -148,7 +156,11 @@ function App() {
     }
   };
 
-  const NAV_ITEMS = [
+  // Researcher accounts that see the full nav including Admin/DataLab
+  const ADMIN_USERS = ['sanskar', 'researcher', 'admin'];
+  const isAdmin = ADMIN_USERS.includes(currentUser?.username?.toLowerCase());
+
+  const NAV_ITEMS_ALL = [
     { name: 'Home', icon: '🏠' },
     { name: 'Lessons', icon: '📖' },
     { name: 'Quiz', icon: '📝' },
@@ -161,8 +173,48 @@ function App() {
     { name: 'DataLab', icon: '🧪' },
   ];
 
+  // Learners only see learning-focused screens; Admin/DataLab/Community hidden
+  const NAV_ITEMS = isAdmin
+    ? NAV_ITEMS_ALL
+    : NAV_ITEMS_ALL.filter(item => !['Admin', 'DataLab', 'Community'].includes(item.name));
+
   return (
     <div className="min-h-screen flex bg-ivory font-noto relative">
+
+      {/* WELCOME MODAL — shown once per user on first login */}
+      {showWelcome && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 backdrop-blur-md bg-forest/30 animate-fadeIn">
+          <div className="bg-white w-full max-w-lg rounded-[3rem] shadow-2xl overflow-hidden border-t-8 border-saffron">
+            <div className="p-10 space-y-6">
+              <div className="text-center">
+                <span className="text-6xl">🙏</span>
+                <h2 className="font-tiro text-3xl text-saffron mt-3">नमस्ते, स्वागत है!</h2>
+                <p className="text-forest font-medium italic mt-1">Welcome to AwadhVaani</p>
+              </div>
+              <div className="space-y-3 text-slate-700 text-sm leading-relaxed">
+                <p>
+                  Over the next 5 days, you'll explore <span className="font-bold text-forest">Awadhi</span> — a regional language of Uttar Pradesh, spoken by over 38 million people and the language of the Ramcharitmanas.
+                </p>
+                <p>
+                  Spend about <span className="font-bold text-saffron">1 hour per day</span> using the app, at whatever time works for you. Try whichever features interest you — Lessons, Quiz, Voice Practice, Stories, or browsing the Word Repository.
+                </p>
+                <p className="text-slate-500 text-xs italic">
+                  There's no "right" way to use the app. Just explore and have fun.
+                </p>
+              </div>
+              <button
+                onClick={() => {
+                  try { localStorage.setItem(`awadhvaani_welcome_${currentUser.username}`, 'shown'); } catch {}
+                  setShowWelcome(false);
+                }}
+                className="w-full bg-saffron text-white py-4 rounded-2xl font-bold shadow-lg shadow-saffron/20 hover:scale-105 active:scale-95 transition"
+              >
+                Start Learning →
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* QUIT MODAL */}
       {showQuitModal && (
