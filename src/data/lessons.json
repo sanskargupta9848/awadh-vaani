@@ -9,28 +9,81 @@
       {
         "name": "Pranaam — Greetings",
         "sentences": [
-          { "awadhi": "प्रणाम", "roman": "Pranaam", "english": "Greetings / Salutation" },
-          { "awadhi": "कइसे अहा?", "roman": "Kaise aha?", "english": "How are you?" },
-          { "awadhi": "हम ठीक अही।", "roman": "Hum theek ahi.", "english": "I am fine." },
-          { "awadhi": "तोहार नाम का अहय?", "roman": "Tohar naam ka ahay?", "english": "What is your name?" }
+          {
+            "awadhi": "प्रणाम",
+            "roman": "Pranaam",
+            "english": "Greetings / Salutation"
+          },
+          {
+            "awadhi": "कइसे अहा?",
+            "roman": "Kaise aha?",
+            "english": "How are you?"
+          },
+          {
+            "awadhi": "हम ठीक अही।",
+            "roman": "Hum theek ahi.",
+            "english": "I am fine."
+          },
+          {
+            "awadhi": "तोहार नाम का अहय?",
+            "roman": "Tohar naam ka ahay?",
+            "english": "What is your name?"
+          }
         ]
       },
       {
         "name": "Mora Naam — Introductions",
         "sentences": [
-          { "awadhi": "हम राधा अही।", "roman": "Hum Radha ahi.", "english": "I am Radha." },
-          { "awadhi": "हम हियाँ तुहका देखय आवा रहिन।", "roman": "Hum hiyaan tuhka dekhay aava rahin.", "english": "I came here to see you." },
-          { "awadhi": "कृपया जा।", "roman": "Kripaya ja.", "english": "Please go." },
-          { "awadhi": "चला जा।", "roman": "Chala ja.", "english": "Let's go." }
+          {
+            "awadhi": "हम राधा अही।",
+            "roman": "Hum Radha ahi.",
+            "english": "I am Radha."
+          },
+          {
+            "awadhi": "हम हियाँ तुहका देखय आवा रहिन।",
+            "roman": "Hum hiyaan tuhka dekhay aava rahin.",
+            "english": "I came here to see you."
+          },
+          {
+            "awadhi": "कृपया जा।",
+            "roman": "Kripaya ja.",
+            "english": "Please go."
+          },
+          {
+            "awadhi": "चला जा।",
+            "roman": "Chala ja.",
+            "english": "Let's go."
+          }
         ]
       },
       {
         "name": "Basic Expressions",
         "sentences": [
-          { "awadhi": "हाँ", "roman": "Haan", "english": "Yes" },
-          { "awadhi": "नाहीं", "roman": "Naahin", "english": "No" },
-          { "awadhi": "धन्यवाद", "roman": "Dhanyavaad", "english": "Thank you" },
-          { "awadhi": "वे हमका आशीर्वाद देहें।", "roman": "Ve humka aashirvaad dehen.", "english": "They blessed me." }
+          {
+            "awadhi": "हाँ",
+            "roman": "Haan",
+            "english": "Yes"
+          },
+          {
+            "awadhi": "नाहीं",
+            "roman": "Naahin",
+            "english": "No"
+          },
+          {
+            "awadhi": "धन्यवाद",
+            "roman": "Dhanyavaad",
+            "english": "Thank you"
+          },
+          {
+            "awadhi": "वे हमका आशीर्वाद देहें।",
+            "roman": "Ve humka aashirvaad dehen.",
+            "english": "They blessed me."
+          },
+          {
+            "awadhi": "हम अही, सब ठीक बा।",
+            "roman": "Hum ahi, sab theek baa.",
+            "english": "I am here, everything is fine."
+          }
         ]
       }
     ]
@@ -45,24 +98,76 @@
       {
         "name": "Mai-Baap — Parents",
         "sentences": [
-          { "awadhi": "हम जाबय जब अम्मा आय जइहैं।", "roman": "Hum jaabay jab amma aay jaihain.", "english": "I will go when mother comes." },
-          { "awadhi": "लरिका कय नामकरन वोहकय महतारी-बाप ,मामा-मौसी ,आदि लोग करा थी ।", "roman": "Larika kay naamkaran vohakai mahtari-baap, mama-mausi, aadi log kara thi.", "english": "The child's naming was done by his mother, father, maternal uncle and aunt." },
-          { "awadhi": "बिआह के रसम कय व्यवस्था अउर खर्चा लडकी के माँ-बाप उठावा थीं ।", "roman": "Biaah ke rasm kay vyavastha aur kharcha ladki ke maa-baap uthaava thin.", "english": "The arrangements and expenses of the wedding were borne by the bride's parents." }
+          {
+            "awadhi": "हम जाबय जब अम्मा आय जइहैं।",
+            "roman": "Hum jaabay jab amma aay jaihain.",
+            "english": "I will go when mother comes."
+          },
+          {
+            "awadhi": "लरिका कय नामकरन वोहकय महतारी-बाप ,मामा-मौसी ,आदि लोग करा थी ।",
+            "roman": "Larika kay naamkaran vohakai mahtari-baap, mama-mausi, aadi log kara thi.",
+            "english": "The child's naming was done by his mother, father, maternal uncle and aunt."
+          },
+          {
+            "awadhi": "बिआह के रसम कय व्यवस्था अउर खर्चा लडकी के माँ-बाप उठावा थीं ।",
+            "roman": "Biaah ke rasm kay vyavastha aur kharcha ladki ke maa-baap uthaava thin.",
+            "english": "The arrangements and expenses of the wedding were borne by the bride's parents."
+          },
+          {
+            "awadhi": "हमार बाबू खेत जात अहैं।",
+            "roman": "Hamaar babu khet jaat ahain.",
+            "english": "My father goes to the field."
+          },
+          {
+            "awadhi": "बाबू हमका बहुत प्यार करत अहैं।",
+            "roman": "Babu hamka bahut pyaar karat ahain.",
+            "english": "Father loves me very much."
+          },
+          {
+            "awadhi": "अम्मा घर मा बैठी अहैं।",
+            "roman": "Amma ghar ma baithi ahain.",
+            "english": "Mother is sitting in the house."
+          },
+          {
+            "awadhi": "घर मा सब लोग सुखी अहैं।",
+            "roman": "Ghar ma sab log sukhi ahain.",
+            "english": "Everyone in the house is happy."
+          }
         ]
       },
       {
         "name": "Bhai-Bahin — Siblings",
         "sentences": [
-          { "awadhi": "हम अउर हमाय भाय साथ मा खेलब।", "roman": "Hum aur humay bhaay saath ma khelab.", "english": "I and my brother will play together." },
-          { "awadhi": "हमरे दोस्त कय बहिन बिमार बाटय।", "roman": "Hamare dost kay bahin bimaar baatay.", "english": "My friend's sister is sick." },
-          { "awadhi": "हमार बहिन भी हमार विश्वास नही किहिस।", "roman": "Hamaar bahin bhi hamaar vishvaas nahi kihis.", "english": "Even my sister did not trust me." }
+          {
+            "awadhi": "हम अउर हमाय भाय साथ मा खेलब।",
+            "roman": "Hum aur humay bhaay saath ma khelab.",
+            "english": "I and my brother will play together."
+          },
+          {
+            "awadhi": "हमरे दोस्त कय बहिन बिमार बाटय।",
+            "roman": "Hamare dost kay bahin bimaar baatay.",
+            "english": "My friend's sister is sick."
+          },
+          {
+            "awadhi": "हमार बहिन भी हमार विश्वास नही किहिस।",
+            "roman": "Hamaar bahin bhi hamaar vishvaas nahi kihis.",
+            "english": "Even my sister did not trust me."
+          }
         ]
       },
       {
         "name": "Kaka-Kaki — Extended Family",
         "sentences": [
-          { "awadhi": "नामकरन के रसम मा मामा,नाना-नानी ,बुआ-फ़ुफ़ा,चाची मौसी ,दादी ,नानी सब लॊग नामकरन के रसम मा जा थीं आवा थी ।", "roman": "Naamkaran ke rasm ma mama, nana-naani, bua-fufa, chaachi, mausi, daadi, naani sab log aava thin.", "english": "For the naming ceremony, the maternal uncle, grandparents, aunts, and grandmother all came." },
-          { "awadhi": "बिआह के रसम मा घर के रिश्तेदार गाँव वाले बुआ ,काका ,फ़ुफ़ा,मामा,मौसी आदि लोग न्योता जा थीं ।", "roman": "Biaah ke rasm ma ghar ke rishtedar, gaav vale bua, kaaka, fufa, mama, mausi aadi log nyota ja thin.", "english": "Family members, villagers, aunts, uncles were all invited to the wedding." }
+          {
+            "awadhi": "नामकरन के रसम मा मामा,नाना-नानी ,बुआ-फ़ुफ़ा,चाची मौसी ,दादी ,नानी सब लॊग नामकरन के रसम मा जा थीं आवा थी ।",
+            "roman": "Naamkaran ke rasm ma mama, nana-naani, bua-fufa, chaachi, mausi, daadi, naani sab log aava thin.",
+            "english": "For the naming ceremony, the maternal uncle, grandparents, aunts, and grandmother all came."
+          },
+          {
+            "awadhi": "बिआह के रसम मा घर के रिश्तेदार गाँव वाले बुआ ,काका ,फ़ुफ़ा,मामा,मौसी आदि लोग न्योता जा थीं ।",
+            "roman": "Biaah ke rasm ma ghar ke rishtedar, gaav vale bua, kaaka, fufa, mama, mausi aadi log nyota ja thin.",
+            "english": "Family members, villagers, aunts, uncles were all invited to the wedding."
+          }
         ]
       }
     ]
@@ -77,28 +182,96 @@
       {
         "name": "Going Places",
         "sentences": [
-          { "awadhi": "वे रोज स्कूल जा थें।", "roman": "Ve roz skool ja then.", "english": "They used to go to school daily." },
-          { "awadhi": "राधा रमेश के साथे शहर गयी।", "roman": "Radha Ramesh ke saathe sheher gayi.", "english": "Radha went to the city with Ramesh." },
-          { "awadhi": "खराब मौसम की वजह से हम सब गाँव नही जाय पाइन।", "roman": "Kharaab mausam ki vajah se hum sab gaav nahi jaay paain.", "english": "Due to bad weather we all could not go to the village." },
-          { "awadhi": "राजू घर छोड देहें।", "roman": "Raju ghar chhod dehen.", "english": "Raju left home." }
+          {
+            "awadhi": "वे रोज स्कूल जा थें।",
+            "roman": "Ve roz skool ja then.",
+            "english": "They used to go to school daily."
+          },
+          {
+            "awadhi": "राधा रमेश के साथे शहर गयी।",
+            "roman": "Radha Ramesh ke saathe sheher gayi.",
+            "english": "Radha went to the city with Ramesh."
+          },
+          {
+            "awadhi": "खराब मौसम की वजह से हम सब गाँव नही जाय पाइन।",
+            "roman": "Kharaab mausam ki vajah se hum sab gaav nahi jaay paain.",
+            "english": "Due to bad weather we all could not go to the village."
+          },
+          {
+            "awadhi": "राजू घर छोड देहें।",
+            "roman": "Raju ghar chhod dehen.",
+            "english": "Raju left home."
+          }
         ]
       },
       {
         "name": "Everyday Actions",
         "sentences": [
-          { "awadhi": "वे कपडा धोवत रही।", "roman": "Ve kapda dhovat rahi.", "english": "She was washing clothes." },
-          { "awadhi": "खाये के बाद सोया।", "roman": "Khaaye ke baad soya.", "english": "He slept after eating." },
-          { "awadhi": "हम लडके से झाडू से कमरा साफ़ करवाइन।", "roman": "Hum ladke se jhaadu se kamra saaf karvaain.", "english": "I got the room cleaned by the boy with a broom." },
-          { "awadhi": "वे सोवत्त बाटें।", "roman": "Ve sovatt baaten.", "english": "They are sleeping." }
+          {
+            "awadhi": "वे कपडा धोवत रही।",
+            "roman": "Ve kapda dhovat rahi.",
+            "english": "She was washing clothes."
+          },
+          {
+            "awadhi": "खाये के बाद सोया।",
+            "roman": "Khaaye ke baad soya.",
+            "english": "He slept after eating."
+          },
+          {
+            "awadhi": "हम लडके से झाडू से कमरा साफ़ करवाइन।",
+            "roman": "Hum ladke se jhaadu se kamra saaf karvaain.",
+            "english": "I got the room cleaned by the boy with a broom."
+          },
+          {
+            "awadhi": "वे सोवत्त बाटें।",
+            "roman": "Ve sovatt baaten.",
+            "english": "They are sleeping."
+          },
+          {
+            "awadhi": "हम तुहका देखत अही।",
+            "roman": "Hum tuhka dekhat ahi.",
+            "english": "I am watching you."
+          },
+          {
+            "awadhi": "तू कहाँ जात अहा? कइसा रहा?",
+            "roman": "Tu kahaan jaat aha? Kaisaa raha?",
+            "english": "Where are you going? How was it?"
+          }
         ]
       },
       {
         "name": "Talking About Time",
         "sentences": [
-          { "awadhi": "हम कल स्कूले ना अउबय।", "roman": "Hum kal skoole na aubay.", "english": "I will not come to school tomorrow." },
-          { "awadhi": "वे हर दिन फ़ुटबाल खेला थें।", "roman": "Ve har din football khela then.", "english": "They used to play football every day." },
-          { "awadhi": "वे कल कुछु भी नही खाये रहें।", "roman": "Ve kal kucchu bhi nahi khaaye rahen.", "english": "They did not eat anything yesterday." },
-          { "awadhi": "वे अब मैदान जात अहय।", "roman": "Ve ab maidan jaat ahay.", "english": "They are going to the field now." }
+          {
+            "awadhi": "हम कल स्कूले ना अउबय।",
+            "roman": "Hum kal skoole na aubay.",
+            "english": "I will not come to school tomorrow."
+          },
+          {
+            "awadhi": "वे हर दिन फ़ुटबाल खेला थें।",
+            "roman": "Ve har din football khela then.",
+            "english": "They used to play football every day."
+          },
+          {
+            "awadhi": "वे कल कुछु भी नही खाये रहें।",
+            "roman": "Ve kal kucchu bhi nahi khaaye rahen.",
+            "english": "They did not eat anything yesterday."
+          },
+          {
+            "awadhi": "वे अब मैदान जात अहय।",
+            "roman": "Ve ab maidan jaat ahay.",
+            "english": "They are going to the field now."
+          },
+          {
+            "awadhi": "काल्ह हम बजार जाब।",
+            "roman": "Kaalh hum bajaar jaab.",
+            "english": "Tomorrow I will go to the market."
+          },
+          {
+            "awadhi": "काल्ह वे हियाँ आये रहें।",
+            "roman": "Kaalh ve hiyaan aaye rahen.",
+            "english": "Yesterday they came here."
+          }
         ]
       }
     ]
@@ -113,24 +286,56 @@
       {
         "name": "Rasoi — The Kitchen",
         "sentences": [
-          { "awadhi": "हम सिर्फ़ भात खाई थे।", "roman": "Hum sirf bhaat khaai the.", "english": "I only ate rice." },
-          { "awadhi": "तु खुद से भात बनाये अहा।", "roman": "Tu khud se bhaat banaaye aha.", "english": "You yourself had cooked rice." },
-          { "awadhi": "भोज मा पूडी -सब्जी,हलुआ ,दही खीर आदि भोज लगता है ।", "roman": "Bhoj ma poori-sabzi, halwa, dahi, kheer aadi bhoj lagata hai.", "english": "In the feast, puri-sabzi, halwa, yogurt, and kheer are served." }
+          {
+            "awadhi": "हम सिर्फ़ भात खाई थे।",
+            "roman": "Hum sirf bhaat khaai the.",
+            "english": "I only ate rice."
+          },
+          {
+            "awadhi": "तु खुद से भात बनाये अहा।",
+            "roman": "Tu khud se bhaat banaaye aha.",
+            "english": "You yourself had cooked rice."
+          },
+          {
+            "awadhi": "भोज मा पूडी -सब्जी,हलुआ ,दही खीर आदि भोज लगता है ।",
+            "roman": "Bhoj ma poori-sabzi, halwa, dahi, kheer aadi bhoj lagata hai.",
+            "english": "In the feast, puri-sabzi, halwa, yogurt, and kheer are served."
+          }
         ]
       },
       {
         "name": "Thaali — Meals & Sharing",
         "sentences": [
-          { "awadhi": "हमका एक दर्जन केला दिया।", "roman": "Humka ek darjan kela diya.", "english": "Give me a dozen bananas." },
-          { "awadhi": "वे दुध-वुध खरीदिहैं।", "roman": "Ve doodh-voodh kharidihain.", "english": "They will buy milk and such things." },
-          { "awadhi": "वे उनका किताब दे थें।", "roman": "Ve unka kitaab de then.", "english": "They used to give them books." }
+          {
+            "awadhi": "हमका एक दर्जन केला दिया।",
+            "roman": "Humka ek darjan kela diya.",
+            "english": "Give me a dozen bananas."
+          },
+          {
+            "awadhi": "वे दुध-वुध खरीदिहैं।",
+            "roman": "Ve doodh-voodh kharidihain.",
+            "english": "They will buy milk and such things."
+          },
+          {
+            "awadhi": "वे उनका किताब दे थें।",
+            "roman": "Ve unka kitaab de then.",
+            "english": "They used to give them books."
+          }
         ]
       },
       {
         "name": "Kalewa — Village Breakfast",
         "sentences": [
-          { "awadhi": "भोज मा पुडी-सब्जी खीर मिठाई ,लडडू आदि खाना बनत है ।", "roman": "Bhoj ma poori-sabzi, kheer, mithai, laddoo aadi khaana banat hai.", "english": "In the feast, puri-sabzi, kheer, sweets, and laddoos are cooked." },
-          { "awadhi": "बिआह के पहिलेव भोज होत है।", "roman": "Biaah ke pahilev bhoj hot hai.", "english": "There is a feast even before the wedding." }
+          {
+            "awadhi": "भोज मा पुडी-सब्जी खीर मिठाई ,लडडू आदि खाना बनत है ।",
+            "roman": "Bhoj ma poori-sabzi, kheer, mithai, laddoo aadi khaana banat hai.",
+            "english": "In the feast, puri-sabzi, kheer, sweets, and laddoos are cooked."
+          },
+          {
+            "awadhi": "बिआह के पहिलेव भोज होत है।",
+            "roman": "Biaah ke pahilev bhoj hot hai.",
+            "english": "There is a feast even before the wedding."
+          }
         ]
       }
     ]
@@ -145,24 +350,56 @@
       {
         "name": "Janam & Naamkaran — Birth & Naming",
         "sentences": [
-          { "awadhi": "जादातर जनम कय रसम अउर नामकरन कय रसम कौने कौने समय पय होत है।", "roman": "Jaadatar janam kay rasm aur naamkaran kay rasm kaunay kaunay samay pay hot hai.", "english": "The birth and naming ceremonies happen at auspicious times." },
-          { "awadhi": "जनम अउर नामकरन कय रसन पंडित द्वारा शुभ दिन अउर तिथि देख के निश्चित कीन जात है ।", "roman": "Janam aur naamkaran kay rasan pandit dvaara shubh din aur tithi dekh ke nishchit keen jaat hai.", "english": "The birth and naming ceremony is fixed by the priest after checking an auspicious day and date." },
-          { "awadhi": "जनम अउर नामकरन के रसम मा फ़ूल-फ़ल ,केला ,पूडी,सब्जी सब लागत है ।", "roman": "Janam aur naamkaran ke rasm ma phool-phal, kela, poori, sabzi sab laagat hai.", "english": "Flowers, fruits, bananas, puri, and vegetables are all used in the birth and naming ceremony." }
+          {
+            "awadhi": "जादातर जनम कय रसम अउर नामकरन कय रसम कौने कौने समय पय होत है।",
+            "roman": "Jaadatar janam kay rasm aur naamkaran kay rasm kaunay kaunay samay pay hot hai.",
+            "english": "The birth and naming ceremonies happen at auspicious times."
+          },
+          {
+            "awadhi": "जनम अउर नामकरन कय रसन पंडित द्वारा शुभ दिन अउर तिथि देख के निश्चित कीन जात है ।",
+            "roman": "Janam aur naamkaran kay rasan pandit dvaara shubh din aur tithi dekh ke nishchit keen jaat hai.",
+            "english": "The birth and naming ceremony is fixed by the priest after checking an auspicious day and date."
+          },
+          {
+            "awadhi": "जनम अउर नामकरन के रसम मा फ़ूल-फ़ल ,केला ,पूडी,सब्जी सब लागत है ।",
+            "roman": "Janam aur naamkaran ke rasm ma phool-phal, kela, poori, sabzi sab laagat hai.",
+            "english": "Flowers, fruits, bananas, puri, and vegetables are all used in the birth and naming ceremony."
+          }
         ]
       },
       {
         "name": "Biaah — Wedding Rituals",
         "sentences": [
-          { "awadhi": "हमरे समाज मा शादी से सम्बन्धित रसम लगन,तिलक ,विवाह होत है ।", "roman": "Hamare samaaj ma shaadi se sambandhit rasm lagan, tilak, vivaah hot hai.", "english": "In our society, wedding-related rituals include engagement, tilak, and marriage." },
-          { "awadhi": "बिआह के रसम मुख्यत: सिन्दूर दान ,सात फ़ेरा आदि हुअत है ।", "roman": "Biaah ke rasm mukhyatah sindoor daan, saat fera aadi huat hai.", "english": "The main wedding rituals are sindoor ceremony and the seven sacred rounds." },
-          { "awadhi": "बिआह के रसम का पंडित करवावा थीं अउर लडका अउर लडकी के माँ-बाप मिल के करा थीं ।", "roman": "Biaah ke rasm ka pandit karvaava thin aur ladka aur ladki ke maa-baap mil ke kara thin.", "english": "The wedding rituals were performed by the priest and the parents of the couple together." }
+          {
+            "awadhi": "हमरे समाज मा शादी से सम्बन्धित रसम लगन,तिलक ,विवाह होत है ।",
+            "roman": "Hamare samaaj ma shaadi se sambandhit rasm lagan, tilak, vivaah hot hai.",
+            "english": "In our society, wedding-related rituals include engagement, tilak, and marriage."
+          },
+          {
+            "awadhi": "बिआह के रसम मुख्यत: सिन्दूर दान ,सात फ़ेरा आदि हुअत है ।",
+            "roman": "Biaah ke rasm mukhyatah sindoor daan, saat fera aadi huat hai.",
+            "english": "The main wedding rituals are sindoor ceremony and the seven sacred rounds."
+          },
+          {
+            "awadhi": "बिआह के रसम का पंडित करवावा थीं अउर लडका अउर लडकी के माँ-बाप मिल के करा थीं ।",
+            "roman": "Biaah ke rasm ka pandit karvaava thin aur ladka aur ladki ke maa-baap mil ke kara thin.",
+            "english": "The wedding rituals were performed by the priest and the parents of the couple together."
+          }
         ]
       },
       {
         "name": "Mrityu — Death Customs",
         "sentences": [
-          { "awadhi": "हमरे समाज मा मित्यु से सम्बन्धित रसम तेरहवीं अउर वरषी हुआ थै।", "roman": "Hamare samaaj ma mityu se sambandhit rasm terhaveen aur varshi hua thai.", "english": "In our society, the death-related rituals are the 13th-day ceremony and the annual memorial." },
-          { "awadhi": "समान्यत: म्रित्यु कय रसम म्रित्यु वाले आदमी के घरे पय हुआ थै।", "roman": "Samaanyatah mrityu kay rasm mrityu vale aadmi ke ghare pay hua thai.", "english": "Generally, the death rituals take place at the home of the deceased." }
+          {
+            "awadhi": "हमरे समाज मा मित्यु से सम्बन्धित रसम तेरहवीं अउर वरषी हुआ थै।",
+            "roman": "Hamare samaaj ma mityu se sambandhit rasm terhaveen aur varshi hua thai.",
+            "english": "In our society, the death-related rituals are the 13th-day ceremony and the annual memorial."
+          },
+          {
+            "awadhi": "समान्यत: म्रित्यु कय रसम म्रित्यु वाले आदमी के घरे पय हुआ थै।",
+            "roman": "Samaanyatah mrityu kay rasm mrityu vale aadmi ke ghare pay hua thai.",
+            "english": "Generally, the death rituals take place at the home of the deceased."
+          }
         ]
       }
     ]
@@ -177,27 +414,71 @@
       {
         "name": "Conditional Sentences",
         "sentences": [
-          { "awadhi": "हम जाबय जब अम्मा आय जइहैं।", "roman": "Hum jaabay jab amma aay jaihain.", "english": "I will go when mother arrives." },
-          { "awadhi": "अगर वे कल आवा होतें तौ हम मना कय सकत रहिन।", "roman": "Agar ve kal aava hoten tau hum mana kay sakat rahin.", "english": "If they had come yesterday, I could have refused." },
-          { "awadhi": "हम चाही थे की तू एक अच्छा इन्सान बना।", "roman": "Hum chaahi the ki tu ek achchha insaan bana.", "english": "I wanted you to become a good person." }
+          {
+            "awadhi": "हम जाबय जब अम्मा आय जइहैं।",
+            "roman": "Hum jaabay jab amma aay jaihain.",
+            "english": "I will go when mother arrives."
+          },
+          {
+            "awadhi": "अगर वे कल आवा होतें तौ हम मना कय सकत रहिन।",
+            "roman": "Agar ve kal aava hoten tau hum mana kay sakat rahin.",
+            "english": "If they had come yesterday, I could have refused."
+          },
+          {
+            "awadhi": "हम चाही थे की तू एक अच्छा इन्सान बना।",
+            "roman": "Hum chaahi the ki tu ek achchha insaan bana.",
+            "english": "I wanted you to become a good person."
+          }
         ]
       },
       {
         "name": "Complex Expressions",
         "sentences": [
-          { "awadhi": "जहाँ-तहाँ किताब बिखरी पडी बाटय।", "roman": "Jahaan-tahaan kitaab bikhari padi baatay.", "english": "Books are scattered here and there." },
-          { "awadhi": "भूख से हमार अंतरी ककुरात अहय।", "roman": "Bhookh se hamaar antari kakuraat ahay.", "english": "Our stomach is growling with hunger." },
-          { "awadhi": "गाँव कय ई सबसे पुरान पेड आय।", "roman": "Gaav kay ee sabse puraan ped aay.", "english": "This is the oldest tree in the village." },
-          { "awadhi": "वे बिना केहू का बतायेन चला गये।", "roman": "Ve bina kehu ka bataayen chala gaye.", "english": "They left without telling anyone." }
+          {
+            "awadhi": "जहाँ-तहाँ किताब बिखरी पडी बाटय।",
+            "roman": "Jahaan-tahaan kitaab bikhari padi baatay.",
+            "english": "Books are scattered here and there."
+          },
+          {
+            "awadhi": "भूख से हमार अंतरी ककुरात अहय।",
+            "roman": "Bhookh se hamaar antari kakuraat ahay.",
+            "english": "Our stomach is growling with hunger."
+          },
+          {
+            "awadhi": "गाँव कय ई सबसे पुरान पेड आय।",
+            "roman": "Gaav kay ee sabse puraan ped aay.",
+            "english": "This is the oldest tree in the village."
+          },
+          {
+            "awadhi": "वे बिना केहू का बतायेन चला गये।",
+            "roman": "Ve bina kehu ka bataayen chala gaye.",
+            "english": "They left without telling anyone."
+          }
         ]
       },
       {
         "name": "Narrative Style",
         "sentences": [
-          { "awadhi": "ई बाँस कय रस्सी आय।", "roman": "Ee baans kay rassi aay.", "english": "This is a bamboo rope." },
-          { "awadhi": "हमरे घरे मा ढेर पेड अहय।", "roman": "Hamare ghare ma dher ped ahay.", "english": "There are many trees at our home." },
-          { "awadhi": "वे हमका फ़ोन केहें।", "roman": "Ve humka phone kehen.", "english": "They called me on the phone." },
-          { "awadhi": "राधा अपने खातिर एक साडी खरीदी।", "roman": "Radha apne khaatir ek saadi kharidi.", "english": "Radha bought a saree for herself." }
+          {
+            "awadhi": "ई बाँस कय रस्सी आय।",
+            "roman": "Ee baans kay rassi aay.",
+            "english": "This is a bamboo rope."
+          },
+          {
+            "awadhi": "हमरे घरे मा ढेर पेड अहय।",
+            "roman": "Hamare ghare ma dher ped ahay.",
+            "english": "There are many trees at our home."
+          },
+          {
+            "awadhi": "वे हमका फ़ोन केहें।",
+            "roman": "Ve humka phone kehen.",
+            "english": "They called me on the phone."
+          },
+          {
+            "awadhi": "राधा अपने खातिर एक साडी खरीदी।",
+            "roman": "Radha apne khaatir ek saadi kharidi.",
+            "english": "Radha bought a saree for herself."
+          }
         ]
       }
     ]

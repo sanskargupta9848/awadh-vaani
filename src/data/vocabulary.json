@@ -1,72 +1,416 @@
 [
-  { "awadhi": "घर", "roman": "Ghar", "eng": "House / Home", "cat": "Home" },
-  { "awadhi": "कमरा", "roman": "Kamra", "eng": "Room", "cat": "Home" },
-  { "awadhi": "झाडू", "roman": "Jhaadu", "eng": "Broom", "cat": "Home" },
-  { "awadhi": "टैंक", "roman": "Tank", "eng": "Tank / Reservoir", "cat": "Home" },
-  { "awadhi": "रस्सी", "roman": "Rassi", "eng": "Rope", "cat": "Home" },
-  { "awadhi": "कुण्डा", "roman": "Kunda", "eng": "Latch / Lock", "cat": "Home" },
-  { "awadhi": "पानी", "roman": "Paani", "eng": "Water", "cat": "Home" },
-
-  { "awadhi": "भाय", "roman": "Bhaay", "eng": "Brother", "cat": "Family" },
-  { "awadhi": "बहिन", "roman": "Bahin", "eng": "Sister", "cat": "Family" },
-  { "awadhi": "अम्मा", "roman": "Amma", "eng": "Mother", "cat": "Family" },
-  { "awadhi": "महतारी", "roman": "Mahtari", "eng": "Mother (dialectal)", "cat": "Family" },
-  { "awadhi": "बाप", "roman": "Baap", "eng": "Father", "cat": "Family" },
-  { "awadhi": "दोस्त", "roman": "Dost", "eng": "Friend", "cat": "Family" },
-  { "awadhi": "मामा", "roman": "Mama", "eng": "Maternal Uncle", "cat": "Family" },
-  { "awadhi": "मौसी", "roman": "Mausi", "eng": "Maternal Aunt", "cat": "Family" },
-  { "awadhi": "नाना", "roman": "Nana", "eng": "Maternal Grandfather", "cat": "Family" },
-  { "awadhi": "नानी", "roman": "Naani", "eng": "Maternal Grandmother", "cat": "Family" },
-  { "awadhi": "बुआ", "roman": "Bua", "eng": "Paternal Aunt", "cat": "Family" },
-  { "awadhi": "दादी", "roman": "Daadi", "eng": "Paternal Grandmother", "cat": "Family" },
-  { "awadhi": "चाची", "roman": "Chaachi", "eng": "Uncle's Wife / Aunt", "cat": "Family" },
-
-  { "awadhi": "भात", "roman": "Bhaat", "eng": "Cooked Rice", "cat": "Food" },
-  { "awadhi": "दूध", "roman": "Doodh", "eng": "Milk", "cat": "Food" },
-  { "awadhi": "केला", "roman": "Kela", "eng": "Banana", "cat": "Food" },
-  { "awadhi": "पूडी", "roman": "Poori", "eng": "Puri (Fried Bread)", "cat": "Food" },
-  { "awadhi": "सब्जी", "roman": "Sabzi", "eng": "Vegetables", "cat": "Food" },
-  { "awadhi": "खीर", "roman": "Kheer", "eng": "Rice Pudding", "cat": "Food" },
-  { "awadhi": "मिठाई", "roman": "Mithai", "eng": "Sweets", "cat": "Food" },
-  { "awadhi": "दही", "roman": "Dahi", "eng": "Yogurt / Curd", "cat": "Food" },
-  { "awadhi": "हलुआ", "roman": "Halwa", "eng": "Halwa (Sweet Dish)", "cat": "Food" },
-  { "awadhi": "फ़ल", "roman": "Phal", "eng": "Fruit", "cat": "Food" },
-  { "awadhi": "लड्डू", "roman": "Laddoo", "eng": "Laddoo (Sweet Ball)", "cat": "Food" },
-  { "awadhi": "कलेवा", "roman": "Kalewa", "eng": "Morning Meal / Breakfast", "cat": "Food" },
-
-  { "awadhi": "गाँव", "roman": "Gaav", "eng": "Village", "cat": "Nature" },
-  { "awadhi": "पेड", "roman": "Ped", "eng": "Tree", "cat": "Nature" },
-  { "awadhi": "जंगल", "roman": "Jungle", "eng": "Forest", "cat": "Nature" },
-  { "awadhi": "बाँस", "roman": "Baans", "eng": "Bamboo", "cat": "Nature" },
-  { "awadhi": "फ़ूल", "roman": "Phool", "eng": "Flower", "cat": "Nature" },
-  { "awadhi": "मौसम", "roman": "Mausam", "eng": "Weather / Season", "cat": "Nature" },
-  { "awadhi": "मैदान", "roman": "Maidan", "eng": "Ground / Field", "cat": "Nature" },
-  { "awadhi": "नदी", "roman": "Nadi", "eng": "River", "cat": "Nature" },
-  { "awadhi": "खेत", "roman": "Khet", "eng": "Farm / Field", "cat": "Nature" },
-
-  { "awadhi": "स्कूल", "roman": "Skool", "eng": "School", "cat": "Education" },
-  { "awadhi": "किताब", "roman": "Kitaab", "eng": "Book", "cat": "Education" },
-  { "awadhi": "छात्र", "roman": "Chhaatr", "eng": "Student", "cat": "Education" },
-  { "awadhi": "पढ़ना", "roman": "Padhna", "eng": "To Study / Read", "cat": "Education" },
-
-  { "awadhi": "पैसा", "roman": "Paisa", "eng": "Money", "cat": "Daily Life" },
-  { "awadhi": "शहर", "roman": "Sheher", "eng": "City / Town", "cat": "Daily Life" },
-  { "awadhi": "कपडा", "roman": "Kapda", "eng": "Cloth / Clothes", "cat": "Daily Life" },
-  { "awadhi": "साडी", "roman": "Saari", "eng": "Saree", "cat": "Daily Life" },
-  { "awadhi": "आदमी", "roman": "Aadmi", "eng": "Person / Man", "cat": "Daily Life" },
-  { "awadhi": "फ़ुटबाल", "roman": "Football", "eng": "Football", "cat": "Daily Life" },
-  { "awadhi": "रोज", "roman": "Roz", "eng": "Daily / Every Day", "cat": "Daily Life" },
-  { "awadhi": "कल", "roman": "Kal", "eng": "Tomorrow / Yesterday", "cat": "Daily Life" },
-  { "awadhi": "दिन", "roman": "Din", "eng": "Day", "cat": "Daily Life" },
-
-  { "awadhi": "रसम", "roman": "Rasm", "eng": "Ritual / Custom", "cat": "Cultural" },
-  { "awadhi": "बिआह", "roman": "Biaah", "eng": "Wedding / Marriage", "cat": "Cultural" },
-  { "awadhi": "नामकरन", "roman": "Naamkaran", "eng": "Naming Ceremony", "cat": "Cultural" },
-  { "awadhi": "जनम", "roman": "Janam", "eng": "Birth", "cat": "Cultural" },
-  { "awadhi": "पंडित", "roman": "Pandit", "eng": "Priest / Scholar", "cat": "Cultural" },
-  { "awadhi": "आशीर्वाद", "roman": "Aashirvaad", "eng": "Blessing", "cat": "Cultural" },
-  { "awadhi": "तिलक", "roman": "Tilak", "eng": "Pre-Wedding Ritual (bride's family accepts groom)", "cat": "Cultural" },
-  { "awadhi": "सिन्दूर", "roman": "Sindoor", "eng": "Vermilion (Wedding Custom)", "cat": "Cultural" },
-  { "awadhi": "गवनौ", "roman": "Gavanau", "eng": "Farewell (Bride's Departure)", "cat": "Cultural" },
-  { "awadhi": "तेरहवीं", "roman": "Terhaveen", "eng": "13th Day Death Ritual", "cat": "Cultural" }
+  {
+    "awadhi": "घर",
+    "roman": "Ghar",
+    "eng": "House / Home",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "कमरा",
+    "roman": "Kamra",
+    "eng": "Room",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "झाडू",
+    "roman": "Jhaadu",
+    "eng": "Broom",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "टैंक",
+    "roman": "Tank",
+    "eng": "Tank / Reservoir",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "रस्सी",
+    "roman": "Rassi",
+    "eng": "Rope",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "कुण्डा",
+    "roman": "Kunda",
+    "eng": "Latch / Lock",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "पानी",
+    "roman": "Paani",
+    "eng": "Water",
+    "cat": "Home"
+  },
+  {
+    "awadhi": "भाय",
+    "roman": "Bhaay",
+    "eng": "Brother",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "बहिन",
+    "roman": "Bahin",
+    "eng": "Sister",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "अम्मा",
+    "roman": "Amma",
+    "eng": "Mother",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "महतारी",
+    "roman": "Mahtari",
+    "eng": "Mother (dialectal)",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "बाप",
+    "roman": "Baap",
+    "eng": "Father",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "दोस्त",
+    "roman": "Dost",
+    "eng": "Friend",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "मामा",
+    "roman": "Mama",
+    "eng": "Maternal Uncle",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "मौसी",
+    "roman": "Mausi",
+    "eng": "Maternal Aunt",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "नाना",
+    "roman": "Nana",
+    "eng": "Maternal Grandfather",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "नानी",
+    "roman": "Naani",
+    "eng": "Maternal Grandmother",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "बुआ",
+    "roman": "Bua",
+    "eng": "Paternal Aunt",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "दादी",
+    "roman": "Daadi",
+    "eng": "Paternal Grandmother",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "चाची",
+    "roman": "Chaachi",
+    "eng": "Uncle's Wife / Aunt",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "भात",
+    "roman": "Bhaat",
+    "eng": "Cooked Rice",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "दूध",
+    "roman": "Doodh",
+    "eng": "Milk",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "केला",
+    "roman": "Kela",
+    "eng": "Banana",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "पूडी",
+    "roman": "Poori",
+    "eng": "Puri (Fried Bread)",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "सब्जी",
+    "roman": "Sabzi",
+    "eng": "Vegetables",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "खीर",
+    "roman": "Kheer",
+    "eng": "Rice Pudding",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "मिठाई",
+    "roman": "Mithai",
+    "eng": "Sweets",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "दही",
+    "roman": "Dahi",
+    "eng": "Yogurt / Curd",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "हलुआ",
+    "roman": "Halwa",
+    "eng": "Halwa (Sweet Dish)",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "फ़ल",
+    "roman": "Phal",
+    "eng": "Fruit",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "लड्डू",
+    "roman": "Laddoo",
+    "eng": "Laddoo (Sweet Ball)",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "कलेवा",
+    "roman": "Kalewa",
+    "eng": "Morning Meal / Breakfast",
+    "cat": "Food"
+  },
+  {
+    "awadhi": "गाँव",
+    "roman": "Gaav",
+    "eng": "Village",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "पेड",
+    "roman": "Ped",
+    "eng": "Tree",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "जंगल",
+    "roman": "Jungle",
+    "eng": "Forest",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "बाँस",
+    "roman": "Baans",
+    "eng": "Bamboo",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "फ़ूल",
+    "roman": "Phool",
+    "eng": "Flower",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "मौसम",
+    "roman": "Mausam",
+    "eng": "Weather / Season",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "मैदान",
+    "roman": "Maidan",
+    "eng": "Ground / Field",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "नदी",
+    "roman": "Nadi",
+    "eng": "River",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "खेत",
+    "roman": "Khet",
+    "eng": "Farm / Field",
+    "cat": "Nature"
+  },
+  {
+    "awadhi": "स्कूल",
+    "roman": "Skool",
+    "eng": "School",
+    "cat": "Education"
+  },
+  {
+    "awadhi": "किताब",
+    "roman": "Kitaab",
+    "eng": "Book",
+    "cat": "Education"
+  },
+  {
+    "awadhi": "छात्र",
+    "roman": "Chhaatr",
+    "eng": "Student",
+    "cat": "Education"
+  },
+  {
+    "awadhi": "पढ़ना",
+    "roman": "Padhna",
+    "eng": "To Study / Read",
+    "cat": "Education"
+  },
+  {
+    "awadhi": "पैसा",
+    "roman": "Paisa",
+    "eng": "Money",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "शहर",
+    "roman": "Sheher",
+    "eng": "City / Town",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "कपडा",
+    "roman": "Kapda",
+    "eng": "Cloth / Clothes",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "साडी",
+    "roman": "Saari",
+    "eng": "Saree",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "आदमी",
+    "roman": "Aadmi",
+    "eng": "Person / Man",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "फ़ुटबाल",
+    "roman": "Football",
+    "eng": "Football",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "रोज",
+    "roman": "Roz",
+    "eng": "Daily / Every Day",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "कल",
+    "roman": "Kal",
+    "eng": "Tomorrow / Yesterday",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "दिन",
+    "roman": "Din",
+    "eng": "Day",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "रसम",
+    "roman": "Rasm",
+    "eng": "Ritual / Custom",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "बिआह",
+    "roman": "Biaah",
+    "eng": "Wedding / Marriage",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "नामकरन",
+    "roman": "Naamkaran",
+    "eng": "Naming Ceremony",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "जनम",
+    "roman": "Janam",
+    "eng": "Birth",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "पंडित",
+    "roman": "Pandit",
+    "eng": "Priest / Scholar",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "आशीर्वाद",
+    "roman": "Aashirvaad",
+    "eng": "Blessing",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "तिलक",
+    "roman": "Tilak",
+    "eng": "Pre-Wedding Ritual (bride's family accepts groom)",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "सिन्दूर",
+    "roman": "Sindoor",
+    "eng": "Vermilion (Wedding Custom)",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "गवनौ",
+    "roman": "Gavanau",
+    "eng": "Farewell (Bride's Departure)",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "तेरहवीं",
+    "roman": "Terhaveen",
+    "eng": "13th Day Death Ritual",
+    "cat": "Cultural"
+  },
+  {
+    "awadhi": "बाबू",
+    "roman": "Babu",
+    "eng": "Father (informal/affectionate)",
+    "cat": "Family"
+  },
+  {
+    "awadhi": "देखत",
+    "roman": "Dekhat",
+    "eng": "Seeing / Watching (present continuous)",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "काल्ह",
+    "roman": "Kaalh",
+    "eng": "Yesterday / Tomorrow",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "कहाँ",
+    "roman": "Kahaan",
+    "eng": "Where",
+    "cat": "Daily Life"
+  },
+  {
+    "awadhi": "कइसा",
+    "roman": "Kaisaa",
+    "eng": "How / What kind (adjectival form)",
+    "cat": "Daily Life"
+  }
 ]
