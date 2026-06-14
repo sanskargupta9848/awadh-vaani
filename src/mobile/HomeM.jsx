@@ -8,7 +8,19 @@ export default function HomeM({ stats, user, onNavigate }) {
     const day = Math.floor(Date.now() / 86400000);
     return vocab[day % vocab.length];
   }, []);
-  const currentUnit = useMemo(() => lessons.find(u => u.progress < 100) || lessons[0], []);
+  // Compute live unit progress from the user's actual completedLessons map.
+  const unitProgress = (unit) => {
+    const completed = stats?.completedLessons ?? {};
+    const total = unit.lessons.length;
+    if (total === 0) return 0;
+    const done = unit.lessons.filter((_, i) => completed[`${unit.id}_${i}`]).length;
+    return Math.round((done / total) * 100);
+  };
+  const currentUnit = useMemo(
+    () => lessons.find(u => unitProgress(u) < 100) || lessons[0],
+    [stats?.completedLessons]
+  );
+  const currentUnitPct = unitProgress(currentUnit);
   const dailyPct = Math.min(100, Math.round((stats.dailyXP / stats.dailyXPGoal) * 100));
   const firstName = user?.name?.split(' ')[0] ?? 'Learner';
 
@@ -36,9 +48,9 @@ export default function HomeM({ stats, user, onNavigate }) {
           <div className="flex-1 min-w-0">
             <h3 className="font-tiro text-lg text-slate-800 truncate">{currentUnit.emoji} {currentUnit.title}</h3>
             <div className="h-2 bg-ivory rounded-full overflow-hidden my-2">
-              <div className="h-full bg-forest rounded-full" style={{ width: `${currentUnit.progress}%` }} />
+              <div className="h-full bg-forest rounded-full" style={{ width: `${currentUnitPct}%` }} />
             </div>
-            <p className="text-xs text-forest font-bold">{currentUnit.progress}% complete</p>
+            <p className="text-xs text-forest font-bold">{currentUnitPct}% complete</p>
           </div>
           <button onClick={() => onNavigate('Lessons')}
             className="bg-saffron text-white px-5 py-3 rounded-2xl font-bold text-sm shadow-md active:scale-95 transition flex-shrink-0">

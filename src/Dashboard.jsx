@@ -17,8 +17,22 @@ export default function Dashboard({ stats, userName, onNavigate }) {
     return vocab[day % vocab.length];
   }, []);
 
-  // Current lesson = first non-100% unit
-  const currentUnit = useMemo(() => lessons.find(u => u.progress < 100) || lessons[0], []);
+  // Compute live unit progress from the user's actual completedLessons map.
+  // Falls back to lessons.json's hardcoded `progress` only if a user has no completion data yet.
+  const unitProgress = (unit) => {
+    const completed = stats?.completedLessons ?? {};
+    const total = unit.lessons.length;
+    if (total === 0) return 0;
+    const done = unit.lessons.filter((_, i) => completed[`${unit.id}_${i}`]).length;
+    return Math.round((done / total) * 100);
+  };
+
+  // Current unit = first unit the user hasn't fully finished (using LIVE progress, not hardcoded)
+  const currentUnit = useMemo(() => {
+    return lessons.find(u => unitProgress(u) < 100) || lessons[0];
+  }, [stats?.completedLessons]);
+
+  const currentUnitPct = unitProgress(currentUnit);
   const dailyPct = Math.round((stats.dailyXP / stats.dailyXPGoal) * 100);
 
   return (
@@ -83,9 +97,9 @@ export default function Dashboard({ stats, userName, onNavigate }) {
             </h3>
             <p className="text-xs text-slate-400 mb-4">{currentUnit.lessons.map(l => l.name).join(' · ')}</p>
             <div className="w-full max-w-md bg-ivory h-3 rounded-full overflow-hidden">
-              <div className="bg-forest h-full rounded-full shadow-inner transition-all duration-700" style={{ width: `${currentUnit.progress}%` }} />
+              <div className="bg-forest h-full rounded-full shadow-inner transition-all duration-700" style={{ width: `${currentUnitPct}%` }} />
             </div>
-            <p className="text-xs text-forest font-bold mt-2">{currentUnit.progress}% Complete</p>
+            <p className="text-xs text-forest font-bold mt-2">{currentUnitPct}% Complete</p>
           </div>
           <button
             onClick={() => onNavigate('Lessons')}
