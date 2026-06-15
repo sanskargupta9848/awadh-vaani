@@ -26,6 +26,7 @@ function App() {
   const [activeScreen, setActiveScreen] = useState('Home');
   const [showQuitModal, setShowQuitModal] = useState(false);
   const [showWelcome, setShowWelcome] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [stats, setStats] = useState(DEFAULT_STATS);
 
   // Restore session on mount
@@ -129,7 +130,10 @@ function App() {
     }));
   }, []);
 
-  const navigate = useCallback((screen) => setActiveScreen(screen), []);
+  const navigate = useCallback((screen) => {
+    setActiveScreen(screen);
+    setShowMobileMenu(false);  // auto-close mobile menu after navigation
+  }, []);
   const handleQuizQuitRequest = () => setShowQuitModal(true);
   const confirmQuit = () => { setShowQuitModal(false); setActiveScreen('Home'); };
   const handleQuizFinish = useCallback((score, correct, total) => {
@@ -235,8 +239,25 @@ function App() {
         </div>
       )}
 
-      {/* SIDEBAR */}
-      <nav className={`w-64 bg-white border-r border-marigold/20 p-6 flex flex-col gap-6 shadow-2xl fixed h-full z-20 transition-all duration-500 ${activeScreen === 'Quiz' ? 'opacity-30 grayscale pointer-events-none' : 'opacity-100'}`}>
+      {/* MOBILE HAMBURGER TOGGLE — visible only on small screens, top-left */}
+      <button
+        onClick={() => setShowMobileMenu(v => !v)}
+        className="md:hidden fixed top-3 left-3 z-40 w-11 h-11 bg-white rounded-xl border border-marigold/30 shadow-md flex items-center justify-center text-saffron text-xl font-bold active:scale-95 transition"
+        aria-label="Toggle menu"
+      >
+        {showMobileMenu ? '✕' : '☰'}
+      </button>
+
+      {/* MOBILE BACKDROP — dim screen when nav is open on mobile */}
+      {showMobileMenu && (
+        <div
+          onClick={() => setShowMobileMenu(false)}
+          className="md:hidden fixed inset-0 bg-forest/40 backdrop-blur-sm z-20 animate-fadeIn"
+        />
+      )}
+
+      {/* SIDEBAR — hidden by default on mobile, slides in when toggled; always visible on md+ */}
+      <nav className={`w-64 bg-white border-r border-marigold/20 p-6 flex flex-col gap-6 shadow-2xl fixed h-full z-30 transition-transform duration-300 ${showMobileMenu ? 'translate-x-0' : '-translate-x-full md:translate-x-0'} ${activeScreen === 'Quiz' ? 'opacity-30 grayscale pointer-events-none' : 'opacity-100'}`}>
         <div className="border-b border-marigold/10 pb-4">
           <h1 className="text-2xl font-black text-saffron tracking-tight font-tiro">AwadhVaani</h1>
           <p className="text-[10px] text-forest font-bold uppercase tracking-widest mt-1">Awadh ki Bhaakha</p>
@@ -293,8 +314,8 @@ function App() {
         </div>
       </nav>
 
-      {/* MAIN CONTENT */}
-      <main className="flex-1 ml-64 p-10 min-w-[1040px]">
+      {/* MAIN CONTENT — full width on mobile, ml-64 on md+ to clear sidebar */}
+      <main className="flex-1 md:ml-64 p-4 pt-16 md:p-10 md:pt-10 md:min-w-[1040px]">
         {renderScreen()}
       </main>
     </div>
