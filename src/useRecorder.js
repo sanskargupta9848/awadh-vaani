@@ -28,7 +28,13 @@ export function useRecorder() {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       streamRef.current = stream;
-      const rec = new MediaRecorder(stream);
+      // Pick a mimeType the browser actually supports (iOS Safari needs mp4, not webm)
+      let options;
+      if (typeof MediaRecorder !== 'undefined' && MediaRecorder.isTypeSupported) {
+        if (MediaRecorder.isTypeSupported('audio/webm')) options = { mimeType: 'audio/webm' };
+        else if (MediaRecorder.isTypeSupported('audio/mp4')) options = { mimeType: 'audio/mp4' };
+      }
+      const rec = options ? new MediaRecorder(stream, options) : new MediaRecorder(stream);
       recorderRef.current = rec;
       rec.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data); };
       rec.onstop = () => {

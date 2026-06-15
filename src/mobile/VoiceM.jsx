@@ -11,6 +11,11 @@ const SPEEDS = [
   { id: 0.75, label: '🏃 Fast' },
 ];
 
+// On mobile, SpeechRecognition and MediaRecorder cannot share the microphone.
+// We skip the simultaneous playback-recording on mobile so recognition (scoring) works reliably.
+const IS_MOBILE = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+const SR_SUPPORTED = !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+
 export default function VoiceM({ onXP, voiceStats = {}, onAttempt }) {
   const [phraseIdx, setPhraseIdx]   = useState(0);
   const [status, setStatus]         = useState('idle');
@@ -25,6 +30,7 @@ export default function VoiceM({ onXP, voiceStats = {}, onAttempt }) {
   const [speed, setSpeed]           = useState(0.5);
   const [showVoicePicker, setShowVoicePicker] = useState(false);
   const [voicePref, setVoicePref]   = useState(getPreferredVoiceName());
+  const [errorMsg, setErrorMsg]     = useState('');
 
   const recognitionRef = useRef(null);
   const animRef = useRef(null);
@@ -51,25 +57,45 @@ export default function VoiceM({ onXP, voiceStats = {}, onAttempt }) {
 
   const startRecording = useCallback(() => {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SR) { alert('Use Chrome for voice recognition'); return; }
+    if (!SR) {
+      setErrorMsg('Voice recognition is not supported on this browser. Please use Google Chrome on Android or a desktop. (iPhone/Safari does not support this feature.)');
+      return;
+    }
+    setErrorMsg('');
     const rec = new SR();
     rec.lang = 'hi-IN'; rec.interimResults = false; rec.maxAlternatives = 1;
     recognitionRef.current = rec;
-    rec.onstart = () => { setStatus('listening'); setTranscript(''); setAnalysis(null); animateBars(true); recorder.start(); };
+    rec.onstart = () => {
+      setStatus('listening'); setTranscript(''); setAnalysis(null); animateBars(true);
+      // Only run MediaRecorder playback on desktop — on mobile it conflicts with the mic
+      if (!IS_MOBILE) recorder.start();
+    };
     rec.onresult = (e) => {
       const text = e.results[0][0].transcript;
       setTranscript(text);
       const a = analyzeTranscript(text, phrase.awadhi);
-      setAnalysis(a); setStatus('done'); animateBars(false); recorder.stop();
+      setAnalysis(a); setStatus('done'); animateBars(false);
+      if (!IS_MOBILE) recorder.stop();
       onAttempt?.({ awadhi: phrase.awadhi, unitTitle: phrase.unitTitle, score: a.score, transcript: text, normalized: a.normalizedTranscript });
       if (a.score >= 60) onXP?.(10);
     };
-    rec.onerror = () => { setStatus('idle'); animateBars(false); recorder.stop(); };
-    rec.onend = () => { if (status === 'listening') { setStatus('done'); animateBars(false); recorder.stop(); } };
-    rec.start();
+    rec.onerror = (e) => {
+      setStatus('idle'); animateBars(false);
+      if (!IS_MOBILE) recorder.stop();
+      if (e.error === 'no-speech') setErrorMsg('No speech detected. Tap the mic and speak clearly.');
+      else if (e.error === 'not-allowed' || e.error === 'service-not-allowed') setErrorMsg('Microphone permission denied. Please allow mic access in your browser settings.');
+      else if (e.error === 'network') setErrorMsg('Network error — voice recognition needs an internet connection.');
+      else setErrorMsg('Could not capture audio. Please try again.');
+    };
+    rec.onend = () => { if (status === 'listening') { setStatus('done'); animateBars(false); if (!IS_MOBILE) recorder.stop(); } };
+    try {
+      rec.start();
+    } catch (err) {
+      setErrorMsg('Could not start the microphone. Tap again.');
+    }
   }, [phrase, status, animateBars, onXP, recorder, onAttempt]);
 
-  const stopRecording = useCallback(() => { recognitionRef.current?.stop(); setStatus('idle'); animateBars(false); recorder.stop(); }, [animateBars, recorder]);
+  const stopRecording = useCallback(() => { recognitionRef.current?.stop(); setStatus('idle'); animateBars(false); if (!IS_MOBILE) recorder.stop(); }, [animateBars, recorder]);
   useEffect(() => () => { cancelAnimationFrame(animRef.current); recognitionRef.current?.stop(); }, []);
 
   const nextPhrase = () => {
@@ -226,7 +252,13 @@ export default function VoiceM({ onXP, voiceStats = {}, onAttempt }) {
           {status === 'done' && 'Recording complete'}
         </p>
 
-        {recorder.audioUrl && (
+        {errorMsg && (
+          <div className="mt-3 w-full bg-red-50 border border-red-200 rounded-2xl p-3 text-center">
+            <p className="text-xs text-red-600 font-medium">{errorMsg}</p>
+          </div>
+        )}
+
+        {!IS_MOBILE && recorder.audioUrl && (
           <div className="mt-4 w-full bg-forest/5 border border-forest/20 rounded-2xl p-3 flex items-center gap-3">
             <button onClick={recorder.isPlaying ? recorder.pausePlayback : recorder.play}
               className="w-11 h-11 bg-forest text-white rounded-full flex items-center justify-center text-base shadow-md active:scale-95 transition flex-shrink-0">
